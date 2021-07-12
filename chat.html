@@ -117,7 +117,7 @@
         const btn = document.querySelector('#btn')
         const textarea = document.querySelector('textarea')
         btn.onclick = function(){
-            const value = textarea.value
+            const value = textarea.value.trim()
             let text = `
             <div class="self">
                 <h5>我说</h5>
